@@ -1,0 +1,32 @@
+h1{
+    color: white;
+    background-color: aquamarine;
+}
+
+#IdentificadorH2{
+    background-color: yellow;
+}
+
+.Azul{
+    color: blue;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    padding: 5px 10px;
+}
+
+#org{
+    text-align: center;
+}
+
+#headCuadro{
+    background-color: aqua;
+}
