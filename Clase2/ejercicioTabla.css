@@ -1,0 +1,15 @@
+table, th, td{
+    border: 1.5px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    padding: 10px 10px;
+}
+
+#tablas{
+    text-align: center;
+}
