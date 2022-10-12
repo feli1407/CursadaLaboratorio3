@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Clase2/ejercicioTabla.css">
+    <script src="/Clase2/index.js" defer></script>
     <title>Document</title>
 </head>
-<body id="tablas">
-    <table>
+<body>
+    <table id="tablas">
         <tbbody>
             <tr>
                 <td>a</td>
@@ -32,7 +33,7 @@
 
     <br>
 
-    <table>
+    <table id="tablas">
         <tbody>
             <tr>
                 <td colspan="3">a</td>
@@ -54,5 +55,53 @@
             </tr>
         </tbody>
     </table>
+
+    <h2>Probando el href para poner links</h2>
+    <a href="https://www.google.com/" target="_blank" rel="noopener norreferer nofollow">
+        <img id="fotogoogle" src="/Clase1/images/imagem-google-logo-com-fundo-transparente-1.png" alt="Foto google"></a>
+        <br><br><br><br><br>
+        <a href="./pagina2.html#capitulo25">Ir al capitulo 25</a>
+
+    <h2>Probando Formularios</h2>
+    <form action="#">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="name" placeholder="Ingrese nombre">
+        <br>
+        <label for="nombre">Edad: </label>
+        <input type="number" id="edad" name="age" min="18" max="65" placeholder="Ingrese edad">
+        <br>
+        <label for="nombre">Mail: </label>
+        <input type="email" id="mail" name="email" placeholder="Ingrese Mail">
+        <br>
+        <label for="">Contraseña: </label>
+        <input type="password" id="clave" name="password" placeholder="Ingrese contraseña">
+        <br>
+        <fieldset>
+        <legend>Genero</legend>
+        <input type="radio" name="genero" value="masculino" checked>Masculino
+        <input type="radio" name="genero" value="femenino">Femenino
+        </fieldset>
+
+        <br>
+        <fieldset>
+        <legend>Deportes</legend>
+        <input type="checkbox" name="futbol" checked>Futbol
+        <input type="checkbox" name="tenis">Tenis
+        <input type="checkbox" name="golf">Golf
+        </fieldset>
+        
+        <br>
+
+        <select name="" id="">
+            <option value="pizza">Pizza</option>
+            <option value="sopa">Sopa</option>
+            <option value="sushi">sushi</option>
+        </select>
+
+        <br>
+
+        <input type="submit" value="Alta usuario">
+    </form>
+    <br><br><br><br><br>
 </body>
 </html>

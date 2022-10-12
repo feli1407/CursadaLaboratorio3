@@ -1,4 +1,4 @@
-table, th, td{
+table, td{
     border: 1.5px solid black;
 }
 
@@ -6,10 +6,15 @@ table{
     border-collapse: collapse;
 }
 
-td,th{
+td{
     padding: 10px 10px;
 }
 
 #tablas{
     text-align: center;
+}
+
+#fotogoogle
+{
+    width: 50px;
 }
