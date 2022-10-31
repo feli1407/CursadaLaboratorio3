@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primer Parcial</title>
+    <script src="/js/app.js" type="module" defer></script>
+    <link rel="stylesheet" href="/css/estilosAdministracion.css" />
+  </head>
+  <header>
+    <img src="/logoConcecionaria.jpeg" alt="logo Concecionaria">
+    <nav>
+      <ul>
+        <li><a href="/html/index.html">Nosotros</a></li>
+        <li><a href="#">Anuncios</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    
+    <h2>Administracion</h2>
+
+    <div id="slider">
+      <div id="contenedor">
+        <img src="/encabezado.jpeg" alt="Auto encabezado" id="imgEncabezado">
+      </div>
+    </div>
+    
+
+
+    <form>
+      <fieldset>
+        <legend>Informacion del anuncio</legend>
+        <label for="txtTitulo">Titulo:</label>
+        <input type="text" name="titulo" id="txtTitulo" />
+        <small></small>
+
+        <label>Transaccion:</label>
+        <input type="radio" name="transaccion" id="Venta" checked />Venta
+        <input type="radio" name="transaccion" id="Alquiler" />Alquiler
+
+        <label for="txtDescripcion">Descripcion:</label>
+        <input type="text" name="descripcion" id="txtDescripcion" />
+        <small></small>
+
+        <label for="numPrecio">Precio:</label>
+        <input type="number" name="precio" id="numPrecio" />
+        <small></small>
+
+        
+        <label for="numPuertas">Puertas:</label>
+        <input type="number" name="puertas" id="numPuertas" />
+        <small></small>
+        
+
+        <label for="numKms">Kms:</label>
+        <input type="number" name="kms" id="numKms" />
+        <small></small>
+
+        <label for="numPotencia">Potencia:</label>
+        <input type="number" name="potencia" id="numPotencia" />
+        <small></small>
+      </fieldset>
+      <input type="hidden" id="txtId" />
+      <input type="submit" id="btnGuardar" value="Guardar" />
+      <input type="button" id="btnEliminar" value="Eliminar" />
+      <input type="button" id="btnCancelar" value="Cancelar" />
+    </form>
+    <div id="carga">
+      <img src="/spinnerRueda.jpeg" alt="spinner" class="spinner">
+    </div>
+    <div class="divTabla"></div>
+    <script src="https://kit.fontawesome.com/5c789a9c95.js" crossorigin="anonymous"></script>
+  </body>
+</html>

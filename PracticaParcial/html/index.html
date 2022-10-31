@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica Parcial</title>
+    <script src="/PracticaParcial/js/app.js" type="module" defer></script>
+    <link rel="stylesheet" href="/PracticaParcial/css/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Llena el formulario de alta</h1>
+    </header>
+
+    <form>
+      <fieldset>
+        <legend>Informacion del anuncio</legend>
+        <label for="txtTitulo">Titulo:</label>
+        <input type="text" name="titulo" id="txtTitulo" />
+        <small></small>
+        
+
+        <label>Transaccion:</label>
+        <input type="radio" name="transaccion" id="Venta" checked />Venta
+        <input type="radio" name="transaccion" id="Alquiler" />Alquiler
+       
+
+        <label for="txtDescripcion">Descripcion:</label>
+        <input type="text" name="descripcion" id="txtDescripcion" />
+        <small></small>
+        
+
+        <label for="numPrecio">Precio:</label>
+        <input type="number" name="precio" id="numPrecio" />
+        <small></small>
+        
+
+        <label for="numBaños">Cantidad de baños:</label>
+        <input type="number" name="baños" id="numBanios" />
+        <small></small>
+        
+
+        <label for="numAutos">Cantidad de autos:</label>
+        <input type="number" name="autos" id="numAutos" />
+        <small></small>
+        
+
+        <label for="numDormitorios">Cantidad de dormitorios:</label>
+        <input type="number" name="dormitorios" id="numDormitorios" />
+        <small></small>
+      </fieldset>
+      <input type="hidden" id="txtId" />
+      <input type="submit" id="btnGuardar" value="Guardar" />
+      <input type="button" id="btnEliminar" value="Eliminar" />
+      <input type="button" id="btnCancelar" value="Cancelar" />
+    </form>
+    <div id="carga">
+      <img src="/PracticaParcial/spinner.jpg" alt="spinner" class="spinner">
+    </div>
+    <div class="divTabla"></div>
+  </body>
+</html>
