@@ -1,0 +1,154 @@
+{
+  "personas": [
+    {
+      "id": 1,
+      "nombre": "Tessa",
+      "sexo": "Female"
+    },
+    {
+      "id": 2,
+      "nombre": "West",
+      "sexo": "Male"
+    },
+    {
+      "id": 3,
+      "nombre": "Elva",
+      "sexo": "Female"
+    },
+    {
+      "id": 4,
+      "nombre": "Sherry",
+      "sexo": "Female"
+    },
+    {
+      "id": 5,
+      "nombre": "Ardath",
+      "sexo": "Female"
+    },
+    {
+      "id": 6,
+      "nombre": "Merlina",
+      "sexo": "Female"
+    },
+    {
+      "id": 7,
+      "nombre": "Cosetta",
+      "sexo": "Female"
+    },
+    {
+      "id": 8,
+      "nombre": "Joelynn",
+      "sexo": "Female"
+    },
+    {
+      "id": 9,
+      "nombre": "Bambie",
+      "sexo": "Female"
+    },
+    {
+      "id": 10,
+      "nombre": "Creight",
+      "sexo": "Male"
+    },
+    {
+      "id": 11,
+      "nombre": "Nicolai",
+      "sexo": "Male"
+    },
+    {
+      "id": 12,
+      "nombre": "Forrester",
+      "sexo": "Male"
+    },
+    {
+      "id": 13,
+      "nombre": "Pru",
+      "sexo": "Female"
+    },
+    {
+      "id": 14,
+      "nombre": "Catharina",
+      "sexo": "Female"
+    },
+    {
+      "id": 15,
+      "nombre": "Torrance",
+      "sexo": "Male"
+    },
+    {
+      "id": 16,
+      "nombre": "Lebbie",
+      "sexo": "Female"
+    },
+    {
+      "id": 17,
+      "nombre": "Jacynth",
+      "sexo": "Female"
+    },
+    {
+      "id": 18,
+      "nombre": "Babb",
+      "sexo": "Female"
+    },
+    {
+      "id": 19,
+      "nombre": "Juana",
+      "sexo": "Female"
+    },
+    {
+      "id": 20,
+      "nombre": "Mortimer",
+      "sexo": "Male"
+    },
+    {
+      "id": 21,
+      "nombre": "Murial",
+      "sexo": "Female"
+    },
+    {
+      "id": 23,
+      "nombre": "Thorndike",
+      "sexo": "Male"
+    },
+    {
+      "id": 24,
+      "nombre": "Karee",
+      "sexo": "Female"
+    },
+    {
+      "id": 25,
+      "nombre": "Jedd",
+      "sexo": "Male"
+    },
+    {
+      "id": 26,
+      "nombre": "Thatch",
+      "sexo": "Male"
+    },
+    {
+      "id": 27,
+      "nombre": "Maegan",
+      "sexo": "Female"
+    },
+    {
+      "id": 28,
+      "nombre": "Penny",
+      "sexo": "Male"
+    },
+    {
+      "id": 29,
+      "nombre": "Roobbie",
+      "sexo": "Female"
+    },
+    {
+      "id": 30,
+      "nombre": "Robb",
+      "sexo": "Male"
+    },
+    {
+      "id": 31,
+      "nombre": "Juliana",
+      "sexo": "hombre"
+    }
+  ]
+}

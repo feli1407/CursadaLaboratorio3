@@ -1,0 +1,38 @@
+ctrl + ñ -> abro la terminal, para node uso la git bash
+
+puedo instalar paquetes de forma global o de forma local en el proyecto con node.
+
+comando -> npm list -g -> me muestra los paquetes que tengo instalados a nivel global.
+
+los nombres de los proyectos npm no deben tenes mayusculas ni numeros ni espacios.
+
+para crearlo tengo que hacer -> npm init ->y complpetar todos los datos, normalmente es enter a todo.
+tambien puedo hacer un -> npm init -y -> y me crea todo en default.
+
+usamos el paquete -> json-server -> se instala con -> npm install json-server
+
+la carpeta node module en mis proyectos deberia estar ne git ignore ya que al ser de terceros no me sirve que este en mi codigo
+si yo hago npm install se me instalan automaticamente todas las dependencias que le haya puesto.
+
+con -> npm rm "nombre" -> lo borro
+
+en la parte script de mi package json pongo -> "start": "json-server -w db.json -d 3000" -> despues de una coma para que ejecute
+ese comando cuando empieza. -d es para un delay de 3 segundos.
+
+si le pongo -p puedo elegir el puerto en donde va a correr.
+
+pongo -> npm start -> y arranca el servidor.
+
+para bajar el servidor tengo que usar -> ctrl + c 
+
+si yo le cambio el nombre en el package json despues tengo que especificarle el nombre cuando lo inicio, en este caso seria
+-> npm run server
+
+con la cruz, no cierreo la terminal sino que la oculto, si la necesito de nuevo solo tengo que tocar -> ctrl + ñ
+
+Ajax -> Callbacks
+Fetch -> Promesas
+Axios -> Retorna una promesa pero internamente trabaja con callbacks
+
+El axios lo instalo por CDN ya que lo instalo como cliente no como servidor, en la pagina NPM me muestra el script si bnusco axios.
+y lo pongo en el html, puede ir en head.
