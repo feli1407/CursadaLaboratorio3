@@ -82,13 +82,8 @@ const createPersona = () => {
   xhr.send(JSON.stringify(nuevaPersona));//Envio la persona parseada a JSON
 };
 
-const updatePersona = () => {
-    //Creo la persona modificada
-  const persona = {
-    id: 31,
-    nombre: "Juliana",
-    sexo: "femenino",
-  };
+const updatePersona = (persona) => {
+    
   setSpinner(divSpinner, "./assets/caminante.gif");
 
   const xhr = new XMLHttpRequest();

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Con offset puedo desplazar espacios vacios de columnas a los elementos.
+    Se puede especificar para que tamaño hacer el offset -->
+    <h1>Offset</h1>
+    <div class="container" style="background-color: lightblue; height: 500px">
+      <div class="row " style="background-color: lightcoral; height: 150px"> 
+          <div class="col-3" style="background-color: #abc; height: 50px">Columna 1a</div>
+          <div class="col-3" style="background-color: #cab; height: 50px">Columna 1b</div>
+          <div class="col-3 offset-3" style="background-color: #bac; height: 50px">Columna 1c</div>
+      </div>
+      <br>
+      <div class="row" style="background-color: lightcoral; height: 150px"> 
+        <div class="col-md-4 offset-lg-4" style="background-color: #abc; height: 50px">Columna 1a</div>
+    </div>
+    <br>
+    <div class="row justify-content-end" style="background-color: lightcoral; height: 150px"> 
+      <div class="col-4" style="background-color: #abc; height: 50px">Columna 1a</div>
+      <div class="col-4" style="background-color: #cab; height: 50px">Columna 1b</div>
+    </div>
+  <br>
+    <div class="row justify-content-between" style="background-color: lightcoral; height: 150px"> 
+      <div class="col-4" style="background-color: #abc; height: 50px">Columna 1a</div>
+      <div class="col-4" style="background-color: #cab; height: 50px">Columna 1b</div>
+    </div>
+    <br>
+    <div class="row justify-content-around" style="background-color: lightcoral; height: 150px"> 
+      <div class="col-4" style="background-color: #abc; height: 50px">Columna 1a</div>
+      <div class="col-4" style="background-color: #cab; height: 50px">Columna 1b</div>
+  </div>
+  </div>
+
+ 
+  </body>
+</html>

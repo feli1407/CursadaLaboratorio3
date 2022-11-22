@@ -16,11 +16,6 @@
       "sexo": "Female"
     },
     {
-      "id": 4,
-      "nombre": "Sherry",
-      "sexo": "Female"
-    },
-    {
       "id": 5,
       "nombre": "Ardath",
       "sexo": "Female"
@@ -149,6 +144,11 @@
       "id": 31,
       "nombre": "Juliana",
       "sexo": "hombre"
+    },
+    {
+      "id": 33,
+      "nombre": "Manuela",
+      "sexo": "Mujer"
     }
   ]
 }

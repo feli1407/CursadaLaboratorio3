@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/pokemon.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>Peticiones Ajax</title>
-</head>
-<body>
+  </head>
+  <body>
+    <input type="text" id="nombre" >
     <button onclick="getPersonas()">Traer Persaonas</button>
     <button onclick="getPersona(5)">Traer Persaona 5</button>
     <button onclick="createPersona()">Alta Persona</button>
-    <button onclick="updatePersona()">Modificar Persona</button>
-    <button onclick="deletePersona(22)">Borrar Persona 22</button>
+    <button
+      onclick="updatePersona({
+        id:4,
+        nombre: 'Moreno',
+        sexo: 'Hombre'
+    })"
+    >
+      Modificar Persona
+    </button>
+    <button onclick="deletePersona(4)">Borrar Persona 4</button>
     <button onclick="getPersonasAsync()">Traer Persaonas Async</button>
+    <button onclick="getPersonaAsync(5)">Traer Persaona 5 Async</button>
 
-    
     <div id="spinner"></div>
+    <div class="divImagen">
+        <img id="imgPokemon" src="" alt="">
+    </div>
 
-    <script src="./js/ajax.js"></script>
+    <!-- <script src="./js/ajax.js"></script> -->
     <!-- <script src="./js/fetch.js"></script> -->
     <!-- <script src="./js/axios.js"></script> -->
-
-</body>
+    <script src="./js/pokemones.js"></script>
+  </body>
 </html>

@@ -25,6 +25,7 @@ pongo -> npm start -> y arranca el servidor.
 
 para bajar el servidor tengo que usar -> ctrl + c 
 
+//INICIAR SERVIDOR -> tengo que hacer cd hasta estar en la carpeta sever dentro de la consola y despues puedo tirar el comando run
 si yo le cambio el nombre en el package json despues tengo que especificarle el nombre cuando lo inicio, en este caso seria
 -> npm run server
 

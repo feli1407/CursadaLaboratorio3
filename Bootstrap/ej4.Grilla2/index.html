@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Con el nombre de la clase bootstrap ya identifca lo que tiene que hacer, se le pasa a las columnas el tamaño y 
+      cantidad columnas(max12) -->
+    <!-- Si no se especifica tamaño es XS y si no especfico columnas divide en partes iguales -->
+    <!-- Puedo pasarle que se acomoden distintas cantidades de columnas segun el tamaño de la pantalla -->
+    <h1>Grilla</h1>
+    <div class="container" style="background-color: lightblue; height: 500px">
+      <div class="row"> 
+            <div class="col-xl" style="background-color: #fac; height: 50px">Columna 0a</div>
+            <div class="col-xl" style="background-color: #cab; height: 50px">Columna 0b</div>
+      </div>  
+      <div class="row"> 
+            <div class="col-md-2 col-lg-8" style="background-color: #aaa; height: 50px">Columna 1a</div>
+            <div class="col-md-6 col-lg-2" style="background-color: #bbb; height: 50px">Columna 1b</div>
+            <div class="col-md-4 col-lg-2" style="background-color: #fda; height: 50px">Columna 1c</div>
+      </div>
+      <div class="row"> 
+            <div class="col-md" style="background-color: #ccc; height: 50px">Columna 2a</div>
+            <div class="col-md" style="background-color: #ddd; height: 50px">Columna 2b</div>
+      </div>
+      <div class="row"> 
+            <div class="col-sm" style="background-color: #eee; height: 50px">Columna 3a</div>
+            <div class="col-sm" style="background-color: #fff; height: 50px">Columna 3b</div>
+      </div>
+      <div class="row"> 
+            <div class="col" style="background-color: #abc; height: 50px">Columna 4a</div>
+            <div class="col" style="background-color: #cab; height: 50px">Columna 4b</div>
+      </div>
+    </div>
+
+    <!-- <div class="container-fluid" style="background-color: lightblue; height: 500px;">
+        <h2>probando container fluid</h2>
+        </div> -->
+
+
+  </body>
+</html>

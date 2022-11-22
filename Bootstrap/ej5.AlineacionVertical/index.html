@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Al nombre de la clase de la row le puedo poner aling-items para mover las columnas dentro de la row -->
+    <h1>Alineacion Vertical</h1>
+    <div class="container" style="background-color: lightblue; height: 500px">
+      <div class="row align-items-start" style="background-color: lightcoral; height: 150px"> 
+            <div class="col" style="background-color: #abc; height: 50px">Columna 1a</div>
+            <div class="col" style="background-color: #cab; height: 50px">Columna 1b</div>
+            <div class="col" style="background-color: #fda; height: 50px">Columna 1c</div>
+      </div>
+      <br>
+      <div class="row align-items-center" style="background-color: lightcoral; height: 150px"> 
+        <div class="col" style="background-color: #abc; height: 50px">Columna 1a</div>
+        <div class="col" style="background-color: #cab; height: 50px">Columna 1b</div>
+        <div class="col" style="background-color: #fda; height: 50px">Columna 1c</div>
+      </div>
+      <br>
+      <div class="row align-items-end" style="background-color: lightcoral; height: 150px"> 
+        <div class="col" style="background-color: #abc; height: 50px">Columna 1a</div>
+        <div class="col" style="background-color: #cab; height: 50px">Columna 1b</div>
+        <div class="col" style="background-color: #fda; height: 50px">Columna 1c</div>
+      </div>
+      <br>
+      <!-- Asi puedo mover la columna en el row como yo quiera -->
+      <div class="row" style="background-color: lightcoral; height: 150px"> 
+        <div class="col align-self-start" style="background-color: #abc; height: 50px">Columna 1a</div>
+        <div class="col  align-self-center" style="background-color: #cab; height: 50px">Columna 1b</div>
+        <div class="col align-self-end" style="background-color: #fda; height: 50px">Columna 1c</div>
+      </div>
+    </div>
+
+    <!-- <div class="container-fluid" style="background-color: lightblue; height: 500px;">
+        <h2>probando container fluid</h2>
+        </div> -->
+
+
+  </body>
+</html>
