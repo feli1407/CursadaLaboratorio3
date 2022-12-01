@@ -1,0 +1,84 @@
+{
+  "anuncios": [
+    {
+      "id": 1,
+      "titulo": "Dovonogil",
+      "transaccion": "Venta",
+      "descripcion": "dscampion0@zimbio.com",
+      "precio": "22667",
+      "cantPuertas": "5",
+      "cantKms": "191649",
+      "cantPotencia": "68"
+    },
+    {
+      "id": 2,
+      "titulo": "Hetti",
+      "transaccion": "Venta",
+      "descripcion": "hmclanaghan1@economist.com",
+      "precio": 157440,
+      "cantPuertas": 4,
+      "cantKms": 26915,
+      "cantPotencia": 129
+    },
+    {
+      "id": 4,
+      "titulo": "Lana",
+      "transaccion": "Venta",
+      "descripcion": "lpettitt3@biblegateway.com",
+      "precio": 137601,
+      "cantPuertas": 2,
+      "cantKms": 51329,
+      "cantPotencia": 162
+    },
+    {
+      "id": 5,
+      "titulo": "Cris",
+      "transaccion": "Alquiler",
+      "descripcion": "cgouny4@wikispaces.com",
+      "precio": 1016,
+      "cantPuertas": 2,
+      "cantKms": 88517,
+      "cantPotencia": 108
+    },
+    {
+      "id": 7,
+      "titulo": "titulo test",
+      "transaccion": "Alquiler",
+      "descripcion": "terribledescripciontesting",
+      "precio": 30000,
+      "cantPuertas": 5,
+      "cantKms": 55000,
+      "cantPotencia": 230
+    },
+    {
+      "id": 9,
+      "titulo": "probando la modificacion",
+      "transaccion": "Alquiler",
+      "descripcion": "funcionoincreible",
+      "precio": 30000,
+      "cantPuertas": 5,
+      "cantKms": 55000,
+      "cantPotencia": 230
+    },
+    {
+      "id": 1669877664754,
+      "titulo": "probandocrearAJAX",
+      "transaccion": "Venta",
+      "descripcion": "increiblementefantastico",
+      "precio": "3242",
+      "cantPuertas": "4",
+      "cantKms": "23333",
+      "cantPotencia": "222"
+    },
+    {
+      "id": 1669877826074,
+      "titulo": "creandoAJAX",
+      "transaccion": "Venta",
+      "descripcion": "fdsfdsfdsfsdfs",
+      "precio": "3425",
+      "cantPuertas": "2",
+      "cantKms": "4444",
+      "cantPotencia": "123"
+    }
+  ]
+}

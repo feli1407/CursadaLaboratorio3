@@ -6,7 +6,7 @@ const nombres = ["Juan", "Pedro", "Lucia", "Alicia", "Sebastian"];
 ////El MAP me devuelve un array con los datos que yo le pida
 // const vec = personas.map((persona) => {
 //   //return persona.nombre;
-//   return {nombnre:persona.nombre, id: persona.id}
+//   return {nombre:persona.nombre, id: persona.id}
 // });
 
 //El FILTER me devuelve un array con los elementos que hicieron que el callback retornara TRUE.
